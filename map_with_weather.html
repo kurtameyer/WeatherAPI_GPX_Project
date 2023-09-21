@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f5181aa5bf0e34c3ea8bef543f8d7fb5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f5181aa5bf0e34c3ea8bef543f8d7fb5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f5181aa5bf0e34c3ea8bef543f8d7fb5 = L.map(
+                "map_f5181aa5bf0e34c3ea8bef543f8d7fb5",
+                {
+                    center: [39.973156, -79.579909],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a8940b8fb4e958c186f70ab254484856 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            var marker_0c0e4358b1a4cafa8cf89beaa030c0eb = L.marker(
+                [39.973156, -79.579909],
+                {}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            marker_0c0e4358b1a4cafa8cf89beaa030c0eb.bindTooltip(
+                `<div>
+                     Wind Speed: 5.31 m/s
+Wind Direction: NE
+Sunset: 2023-09-21 23:17:29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_747eb08185585cc2da20860913c19041 = L.marker(
+                [39.907996, -79.489818],
+                {}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            marker_747eb08185585cc2da20860913c19041.bindTooltip(
+                `<div>
+                     Wind Speed: 4.81 m/s
+Wind Direction: ENE
+Sunset: 2023-09-21 23:17:07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4923674dec197b9776d011d8b7e468d2 = L.marker(
+                [39.82645, -79.379338],
+                {}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            marker_4923674dec197b9776d011d8b7e468d2.bindTooltip(
+                `<div>
+                     Wind Speed: 5.41 m/s
+Wind Direction: ENE
+Sunset: 2023-09-21 23:16:40
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_faef0a446f3f12316e211958dc12efa6 = L.marker(
+                [39.815779, -79.293999],
+                {}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            marker_faef0a446f3f12316e211958dc12efa6.bindTooltip(
+                `<div>
+                     Wind Speed: 5.57 m/s
+Wind Direction: ENE
+Sunset: 2023-09-21 23:16:19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c586a285f975a6ca1ea5badeaf20c1ea = L.marker(
+                [39.861644, -79.227678],
+                {}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            marker_c586a285f975a6ca1ea5badeaf20c1ea.bindTooltip(
+                `<div>
+                     Wind Speed: 5.89 m/s
+Wind Direction: ENE
+Sunset: 2023-09-21 23:16:04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2d44e13f6edc22072605703aa2329fd = L.marker(
+                [39.863845, -79.064948],
+                {}
+            ).addTo(map_f5181aa5bf0e34c3ea8bef543f8d7fb5);
+        
+    
+            marker_c2d44e13f6edc22072605703aa2329fd.bindTooltip(
+                `<div>
+                     Wind Speed: 5.21 m/s
+Wind Direction: ENE
+Sunset: 2023-09-21 23:15:25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
