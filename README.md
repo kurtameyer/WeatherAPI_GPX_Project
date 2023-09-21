@@ -2,7 +2,7 @@
 
 Context:
 
-Each year, I go on a bicycle tour and need certain information for planning my effort levels and timing. More often than not, all I care about is the wind and when sunset is because I have to get to my destination regardless of rain. This program takes GPX data from my longest bicycle rides and extracts GPS data from them at the top of each hour. This information is then passed into Apple Weather Kit to retrieve current wind speed, wind direction, and sunset times for each latitude and longitude pair.  
+Each year, I go on a bicycle tour and need certain information for planning my effort levels and timing. More often than not, all I care about is the wind and when sunset is because I have to get to my destination regardless of rain. This program takes GPX data from my longest bicycle rides and extracts GPS data from them at the top of each hour. This information is then passed into Apple Weather Kit to retrieve current wind speed, wind direction, and sunset times for each latitude and longitude pair. A webpage with location markers and weather information is generated. 
 
 
 Features:
