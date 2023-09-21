@@ -13,7 +13,7 @@ Real-time Weather Info: Utilizes Apple's Weather Kit to fetch current wind speed
 Mapping: Visualizes data points on a map with important weather data available as tooltips for each point. Wind direction in degrees is converted to compass points. 
 
 Usage:
-Prepare GPX data from Strave, name them in the format Morning_RideMM.DD.YY.gpx or Afternoon_RideMM.DD.YY.gpx.
+Prepare GPX data from Strava, name them in the format Morning_RideMM.DD.YY.gpx or Afternoon_RideMM.DD.YY.gpx.
 Run the program using the date for which you want to fetch weather details as an argument.
 The program will save a map with tooltips providing wind speed, wind direction, and sunset time for each point.
 
