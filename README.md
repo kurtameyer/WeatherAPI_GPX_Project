@@ -1,4 +1,18 @@
 # WeatherAPI_GPX_Project
 
-This project will take GPX XML data from some of my longest bicycle rides and extract time and location data (latitude and longitude) in a python script. A separate program will take that information and pass it into weather API calls to extract basic weather information roughly from the top of each hour. Last, a dataframe will be created that lines up the location/time data with the weather data. 
+Context:
 
+Each year, I go on a bicycle tour and need certain information for planning my effort levels and timing. More often than not, all I care about is the wind and when sunset is because I have to get to my destination regardless of rain. This program takes GPX data from my longest bicycle rides and extracts GPS data from them at the top of each hour. This information is then passed into Apple Weather Kit to retrieve current wind speed, wind direction, and sunset times for each latitude and longitude pair.  
+
+
+Features:
+GPX Data Integration: Extracts GPS data from my longest bicycle rides at hourly intervals.
+
+Real-time Weather Info: Utilizes Apple's Weather Kit to fetch current wind speed, wind direction, and sunset times for each latitude and longitude pair extracted from the GPX data. 
+
+Mapping: Visualize your data points on a map with important weather data available as tooltips for each point.
+
+Prerequisites:
+Python (Version: 3.11.4 recommended).
+Packages: folium, gpxpy, weatherkit, datetime, argparse, os.
+An Apple Weather Kit API key and the associated service details.
