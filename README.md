@@ -12,6 +12,12 @@ Real-time Weather Info: Utilizes Apple's Weather Kit to fetch current wind speed
 
 Mapping: Visualize your data points on a map with important weather data available as tooltips for each point.
 
+Usage:
+
+Prepare GPX data, naming them in the format Morning_RideMM.DD.YY.gpx or Afternoon_RideMM.DD.YY.gpx.
+Run the program using the date for which you want to fetch weather details as an argument.
+The program will save a map with tooltips providing wind speed, wind direction, and sunset time for each point.
+
 Prerequisites:
 Python (Version: 3.11.4 recommended).
 Packages: folium, gpxpy, weatherkit, datetime, argparse, os.
