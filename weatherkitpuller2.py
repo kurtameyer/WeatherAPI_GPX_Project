@@ -11,8 +11,7 @@ WK_KEYID = os.environ.get("WK_KEYID")
 WK_PATHTOKEY = os.environ.get("WK_PATHTOKEY")
 
 client = WKClient(WK_TEAM, WK_SERVICE, WK_KEYID, WK_PATHTOKEY)
-# client = WKClient("H96XS2G38R", "com.app.GPXData", "RAXXMUZN2G", "./AuthKey_RAXXMUZN2G.p8")
-# client = WKClient("TEAM", "SERVICE", "KEYID", "PATHTOKEY")
+
 
 def parse_gpx_date(date_string):
     """
