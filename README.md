@@ -19,7 +19,7 @@ The program will save a map with tooltips providing wind speed, wind direction, 
 
 Final Result:
 
-!Final Result](Map.png)
+![Final Result](/Map.png)
 
 Prerequisites:
 Python (Version: 3.11.4 recommended).
