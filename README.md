@@ -17,6 +17,10 @@ Prepare GPX data from Strava, name them in the format Morning_RideMM.DD.YY.gpx o
 Run the program using the date for which you want to fetch weather details as an argument.
 The program will save a map with tooltips providing wind speed, wind direction, and sunset time for each point.
 
+Final Result:
+
+!Final Result](/map.png)
+
 Prerequisites:
 Python (Version: 3.11.4 recommended).
 Packages: folium, gpxpy, weatherkit, datetime, argparse, os.
